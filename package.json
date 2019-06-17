@@ -1,0 +1,47 @@
+{
+  "name": "Starterkit",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "base-64": "^0.1.0",
+    "lodash": "^4.17.11",
+    "lottie-react-native": "2.5.10",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-camera": "git+https://git@github.com/react-native-community/react-native-camera",
+    "react-native-chart-kit": "^2.6.1",
+    "react-native-google-signin": "^1.0.1",
+    "react-native-img-cache": "^1.6.0",
+    "react-native-linear-gradient": "^2.5.3",
+    "react-native-maps": "0.22.1",
+    "react-native-navigation": "^2.8.0",
+    "react-native-paho-mqtt": "^0.1.1",
+    "react-native-splash-screen": "^3.1.1",
+    "react-native-svg": "^8.0.10",
+    "react-native-vector-icons": "6.1.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.10.15"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "^5",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

@@ -17,7 +17,7 @@
     "lodash": "^4.17.11",
     "lottie-react-native": "2.5.10",
     "react": "16.4.1",
-    "react-native": "0.56.0",
+    "react-native": "0.70.2",
     "react-native-camera": "git+https://git@github.com/react-native-community/react-native-camera",
     "react-native-chart-kit": "^2.6.1",
     "react-native-google-signin": "^1.0.1",
